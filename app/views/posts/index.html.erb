@@ -1,0 +1,15 @@
+<% @post.each do |f| %>
+<ul>
+  <li>
+
+    <h2><%= f.title %></h2>
+    <%= f.body%>
+    <br/>
+    <br/>
+    <% if(member.is_member == 1) %>
+      author: <%=f.member.name%>
+    <% end %>
+  </li>
+
+</ul>
+<% end %>

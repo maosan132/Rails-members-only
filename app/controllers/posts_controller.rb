@@ -8,6 +8,8 @@ class PostsController < ApplicationController
   
   def new
     @post = Post.new
+    session[:current_member_id] = 1
+
   end
 
   def create
