@@ -48,6 +48,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'better_errors', '~> 2.7', '>= 2.7.1'
+  gem 'hirb'
 end
 
 group :test do
